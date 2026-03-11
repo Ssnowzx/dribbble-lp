@@ -1,0 +1,111 @@
+.section {
+  padding: 8rem 1.5rem;
+  background-color: var(--bg-primary);
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.title {
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  margin-bottom: 1.5rem;
+}
+
+.subtitle {
+  color: var(--text-secondary);
+  font-size: 1.25rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.card {
+  padding: 3rem;
+  border-radius: var(--radius-lg);
+  border: var(--border-width) solid var(--border-color);
+  background-color: var(--glass-bg);
+  backdrop-filter: var(--glass-blur);
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+
+.cardFeatured {
+  border-color: rgba(255, 255, 255, 0.4);
+  transform: scale(1.05);
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.planName {
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-secondary);
+}
+
+.price {
+  font-size: 3rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.price span {
+  font-size: 1rem;
+  color: var(--text-secondary);
+  font-weight: 400;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.featureItem {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.9375rem;
+  color: var(--text-secondary);
+}
+
+.cta {
+  width: 100%;
+  padding: 1rem;
+  border-radius: var(--radius-pill);
+  font-weight: 600;
+  transition: opacity 0.2s ease;
+}
+
+.ctaPrimary {
+  background-color: var(--text-primary);
+  color: var(--bg-primary);
+}
+
+.ctaSecondary {
+  border: var(--border-width) solid var(--border-color);
+  color: var(--text-primary);
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr;
+    max-width: 450px;
+  }
+  .cardFeatured {
+    transform: none;
+  }
+}

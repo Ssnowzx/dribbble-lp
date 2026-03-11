@@ -1,0 +1,40 @@
+{
+  "name": "dribbble",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Premium Dribbble UI Kit/Template para Web3/SaaS",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview",
+    "sync:ide:gemini": "node .aiox-core/infrastructure/scripts/sync-ide-gemini.js",
+    "validate:gemini-integration": "node .aiox-core/infrastructure/scripts/validate-gemini-integration.js",
+    "validate:parity": "node .aiox-core/infrastructure/scripts/validate-parity.js",
+    "validate:paths": "node .aiox-core/infrastructure/scripts/validate-paths.js",
+    "validate:agents": "node .aiox-core/infrastructure/scripts/validate-agents.js"
+  },
+  "keywords": [
+    "dribbble",
+    "web3",
+    "saas",
+    "template",
+    "ui-kit"
+  ],
+  "author": "Ssnowzx",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "framer-motion": "^11.0.8",
+    "lucide-react": "^0.358.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}
