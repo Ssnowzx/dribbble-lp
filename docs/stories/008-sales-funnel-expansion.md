@@ -1,41 +1,40 @@
 # Épico: Expansão do Funil de Vendas - EOS Web3 Experience
 
 **ID:** STORY-008
-**Status:** 🏗️ Draft
+**Status:** ✅ Concluído
 **Dono:** @pm (Morgan)
 **Squad:** @ux-design-expert, @dev, @analyst
 
 ## 🎯 Objetivo
 Transformar a landing page inicial em um site de vendas completo, focado em conversão para a waitlist e demonstração de valor técnico do EOS.
 
-## 🧱 Seções Planejadas
+## 🧱 Seções Entregues
 
 ### 1. Logo Cloud (Social Proof)
-- **O que é:** Uma faixa discreta com logotipos de parceiros ou projetos do ecossistema.
-- **Objetivo:** Estabelecer autoridade imediata após o hero.
+- **Status:** ✅ Entregue
+- **Detalhes:** Logos em grayscale com hover colorido, integrados à jornada principal.
 
 ### 2. Bento Grid (Core Features)
-- **O que é:** Um grid moderno (estilo Apple/Bento) exibindo os 4 principais diferenciais (Speed, Resilience, Scale, Security).
-- **Objetivo:** Mostrar o "como" o EOS resolve os problemas de Web3.
+- **Status:** ✅ Entregue
+- **Detalhes:** 8 pilares técnicos detalhados com ícones finos e estética Glassmorphism.
 
 ### 3. Developer Experience (Code Section)
-- **O que é:** Um componente visual simulando um editor de código (IDE) mostrando a facilidade de integração.
-- **Objetivo:** Atrair o público técnico (Developers).
+- **Status:** ✅ Entregue
+- **Detalhes:** IDE visual estilizada exibindo o SDK do EOS em ação.
 
-### 4. Pricing / Tiers / Waitlist Final
-- **O que é:** Uma seção com cards de planos (ou benefícios da waitlist) e um formulário final.
-- **Objetivo:** Conversão direta.
+### 4. Genesis Waitlist Modal
+- **Status:** ✅ Entregue
+- **Detalhes:** Janela de vidro flutuante com animação Framer Motion e input de email.
 
 ### 5. Footer (Sitemap & Socials)
-- **O que é:** Rodapé completo com links institucionais e redes sociais.
+- **Status:** ✅ Entregue
+- **Detalhes:** Rodapé harmônico com textura técnica ("chadrez") e marca d'água massiva.
 
 ## 📋 Critérios de Aceite
-- [ ] Todas as seções devem manter o design "Glassmorphism" e "Dark Mode".
-- [ ] Fontes "General Sans" aplicadas corretamente em todo o site.
-- [ ] Responsividade total (Mobile-First).
-- [ ] Integração fluida entre o Hero e as novas seções.
+- [x] Todas as seções mantêm o design "Glassmorphism" e "Dark Mode".
+- [x] Fontes "General Sans" aplicadas corretamente.
+- [x] Responsividade total (Mobile-First).
+- [x] Integração fluida entre o Hero e as novas seções (Single Page).
 
-## 🚀 Próximos Passos
-1. @ux-design-expert cria os tokens de design e wireframes das seções.
-2. @analyst valida o copy das seções com foco em conversão.
-3. @dev implementa as seções no `App.tsx` (ou componentes separados).
+---
+*Finalizado em: 12 de Março de 2026*

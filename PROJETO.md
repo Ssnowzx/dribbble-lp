@@ -1,38 +1,42 @@
-1. Objetivo do Projeto
-Desenvolver uma Landing Page completa e de altíssima conversão, focada no nicho Web3/SaaS, para ser empacotada e vendida como um UI Kit/Template premium no Dribbble (redirecionando para plataformas de venda como Gumroad/UI8). O entregável deve ter um design "eye-candy" (visualmente impressionante, focado em detalhes) que é mandatório para ter sucesso no ecossistema do Dribbble.
+# Registro de Projeto: EOS Web3 Landing Page
 
-2. Contexto de Mercado (O Padrão Dribbble)
-A squad deve entender que o público comprador no Dribbble busca:
+## 1. Visão Geral
+Desenvolvimento de uma Landing Page de altíssima performance para o nicho Web3/SaaS, focada em estabelecer autoridade técnica e capturar leads para o lançamento "Genesis".
 
-Atenção aos micro-detalhes: Espaçamentos perfeitos, tipografia impecável e contraste sofisticado.
+## 2. Status Atual
+- **Status:** ✅ Concluído (Fase 1)
+- **Versão:** 1.0.0
+- **Dono:** AIOX Master Orchestrator
 
-Vibe "Dark & Neon": Uso de fundos ultra escuros contrastando com glows sutis, glassmorphism (efeito de vidro) e bordas finas semi-transparentes.
+## 3. Marcos Alcançados (Milestones)
 
-Estruturas Modernas: Uso intensivo de layouts em "Bento Grid" (cards modulares) para features e seções de código.
+### Fase 1: Fundação & Estilo
+- [x] Configuração inicial Vite + React + TypeScript.
+- [x] Implementação do design system "0.6px Precision".
+- [x] Integração de vídeo de fundo em loop com overlays cinematográficos.
 
-3. Identidade Visual e Constraints (Regras Rígidas)
+### Fase 2: Expansão do Funil (STORY-008)
+- [x] Criação da seção Logo Cloud (Social Proof).
+- [x] Desenvolvimento do Bento Grid de funcionalidades técnicas.
+- [x] Implementação da seção Developer Experience (IDE Preview).
+- [x] Desenvolvimento do setor de Waitlist massivo.
+- [x] Criação do Modal de Conversão (Genesis Access) com Framer Motion.
 
-Tipografia: Uso exclusivo da fonte "General Sans" (Fontshare) em toda a aplicação. Controle rigoroso de line-height e tracking.
+### Fase 3: Consolidação SPA
+- [x] Migração para **Tailwind CSS v4** (Arquitetura nativa).
+- [x] Unificação de páginas separadas em uma Single Page Experience.
+- [x] Implementação de navegação suave (Smooth Scroll) por IDs.
+- [x] Criação de transição atmosférica fluida para o Rodapé.
 
-Paleta de Cores: Foco no Dark Mode absoluto. Fundo principal puro preto (#000000). Elementos de destaque em branco sólido, e textos secundários em branco com opacidade (ex: 70% ou 60%).
+## 4. Diferenciais Técnicos
+- **Textura de Rodapé:** Grid técnico ("chadrez") com 7% de opacidade e máscara de gradiente.
+- **Marca d'água:** Tipografia massiva "EOS" integrada ao fundo para profundidade.
+- **Glassmorphism:** Uso de `backdrop-blur-xl` para simular superfícies de vidro reais sobre o vídeo.
 
-Bordas e Profundidade: Botões e cards devem ter uma construção em camadas. Exemplo padrão: formato pill (totalmente arredondado), borda externa sólida e super fina (0.6px branca), com efeitos de luz/glow (gradiente branco para transparente, desfocado) aplicados nas bordas superiores para simular reflexo.
+## 5. Próximos Passos
+- Conectar o formulário de Waitlist ao backend/CRM.
+- Implementar testes unitários para os componentes de UI.
+- Otimização de SEO e Meta-tags para redes sociais.
 
-4. Estrutura Exigida (O que a AIOX deve construir)
-A página deve ser 100% responsiva e conter a seguinte narrativa fluida:
-
-Hero Section: Fundo em vídeo de loop imersivo (com overlay escuro de 50%), Navbar com efeito glass, Badge de "Early Access", Título principal com gradiente de texto (branco para preto transparente) e um CTA primário detalhado.
-
-Logo Cloud: Marquee infinito com logos de parceiros/tecnologias Web3 com baixa opacidade.
-
-Core Features (Bento Grid): Uma grade assimétrica detalhando vantagens, utilizando ícones finos e glows radiais nos cantos dos cards.
-
-Developer Experience: Uma seção dividida exibindo um bloco de código estilizado (estilo janela do macOS) ao lado de textos explicativos.
-
-Bottom CTA & Footer: Fechamento forte com o mesmo estilo de botão da Hero e um rodapé limpo e utilitário.
-
-5. Expectativa de Output da Squad
-
-Preciso de uma arquitetura de código limpa, escalável e fácil de ser customizada pelo comprador final.
-
-Sugira micro-animações (framer-motion ou CSS puro) que valorizem a apresentação quando eu for gravar a tela para postar o shot no Dribbble.
+---
+*Atualizado em: 12 de Março de 2026*
